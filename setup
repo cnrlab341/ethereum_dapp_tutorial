@@ -1,0 +1,9 @@
+//css
+//bootstrap.min.css : https://getbootstrap.com/
+
+//js
+//jquery.min.js : https://jquery.com/download/
+//sha1.min.js : https://github.com/kazuho/sha1.min.js/blob/master/README.md#sha1minjs
+//socket.io.js : https://github.com/socketio/socket.io
+
+//plz "npm install" on dircetory
