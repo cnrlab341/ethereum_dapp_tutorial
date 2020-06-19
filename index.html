@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md offset-md text-xs-center">
+                    <br>
+                    <h2>Upload file</h2>
+                    <div>
+                        <div class="form-group">
+                            <label class="custom-file text-xs-left">
+                                <input type="file" id="file" class="custom-file-input">
+                                <span class="custom-file-control"></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="owner">Enter owner name</label>
+                            <input type="text" class="form-control" id="owner">
+                        </div>
+                        <button onclick="submit()" class="btn btn-lg">Submit</button>
+                        <button onclick="information()" class="btn btn-lg">Information</button>
+                        <br><br>
+                        <div class="alert" role="alert" id="message">
+                            Information
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md offset-md text-xs-center">
+                    <br>
+                    <h3>Live Transactions</h3>
+                    <ol id="events_list"></ol>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/js/sha1.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/socket.io.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
